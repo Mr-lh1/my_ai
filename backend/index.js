@@ -42,7 +42,7 @@ app.post("/api/chat", async (req, res) => {
       {
         headers: {
           "Content-Type": "application/json",
-          Authorization: `Bearer ${process.env.DEEPSEEK_API_KEY}`,
+          Authorization: `Bearer sk-ce96bd2e36fd4f7abe610361651fab67`,
         },
       }
     );
